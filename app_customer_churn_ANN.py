@@ -20,7 +20,7 @@ with open('standard_scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('Customer Churn Prediction using ANN')
+st.title('Customer Churn Prediction using artificial neural networks')
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
@@ -74,3 +74,4 @@ else:
 ## The above directory would not work because of path.
 ## change the directory to get below path established.
 ## C:\Users\Raj.Rohan\OneDrive - Unilever\Desktop\GPT_Learning_2024_2025>cd "C:\Users\Raj.Rohan\OneDrive - Unilever\Desktop\GPT_Learning_2024_2025\ANN Classification"
+## streamlit run app_customer_churn_ANN.py
